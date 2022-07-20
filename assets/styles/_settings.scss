@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-ExtraBold.ttf")
+}
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../fonts/Merriweather-Light.ttf");
+}
+
+$inter: "Inter",
+sans-serif;
+$merri: "Merriweather",
+sans-serif;
+$white: white;
+$black: black;
+$grey: grey;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/bg.jpg) fixed center/cover;
+}
+
+li {
+    list-style-type: none;
+}

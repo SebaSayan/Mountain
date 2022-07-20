@@ -1,0 +1,39 @@
+header {
+    margin: 200px auto;
+    color: $white;
+    text-align: center;
+    h1 {
+        width: 38%;
+        margin: auto;
+        font-family: $inter;
+        text-transform: uppercase;
+        font-size: 4rem;
+        padding-bottom: 60px;
+    }
+    p {
+        font-family: $merri;
+        font-size: 1rem;
+        font-style: italic;
+        padding-bottom: 60px;
+    }
+    div {
+        position: relative;
+    }
+    i:before {
+        content: "";
+        margin-top: 30%;
+        position: absolute;
+        height: 1px;
+        background: rgba(0, 0, 0, 0.082);
+        top: 0;
+        transform: translate(-50%)
+    }
+    i {
+        position: absolute;
+        font-size: 1.2rem;
+        border: 1px solid white;
+        border-radius: 50px;
+        width: 60px;
+        height: 60px;
+    }
+}
