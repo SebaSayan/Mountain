@@ -1,0 +1,98 @@
+    section {
+        margin: 0 auto;
+        width: 75%;
+        background: $white;
+        color: $black;
+    }
+    
+    .section1 {
+        .date {
+            text-align: center;
+            font-family: $merri;
+            font-size: 1.3rem;
+            padding: 80px 0 80px;
+        }
+        .title2 {
+            margin: 0 auto;
+            width: 50%;
+            h2 {
+                text-align: center;
+                font-family: $inter;
+                font-size: 4rem;
+                letter-spacing: 3px;
+                text-transform: uppercase;
+                margin-bottom: 50px;
+            }
+            p {
+                text-align: center;
+                margin: 0 auto;
+                width: 95%;
+                font-size: 0.9rem;
+                font-family: $merri;
+                font-style: italic;
+                line-height: 40px;
+                margin-bottom: 50px;
+            }
+        }
+        .img1 {
+            background: url("/assets/img/pic01.jpg") center/cover;
+            height: 700px;
+            width: 1100px;
+            margin: 0 auto;
+            margin-bottom: 80px;
+        }
+        .button {
+            @include button;
+        }
+        padding-bottom: 100px;
+    }
+    
+    .section2 {
+        display: flex;
+        margin-bottom: 40px;
+        h3 {
+            margin: 0 auto;
+            width: 35%;
+            text-align: center;
+            font-family: $inter;
+            text-transform: uppercase;
+            font-size: 1.3rem;
+            line-height: 30px;
+            letter-spacing: 3px;
+            padding-bottom: 30px;
+        }
+        p:nth-child(1) {
+            margin: 90px 85px 30px;
+            text-align: center;
+            font-family: $merri
+        }
+        .button {
+            @include button;
+            margin-bottom: 80px;
+        }
+        p {
+            margin: 50px 85px 30px;
+            text-align: left;
+            line-height: 40px;
+            font-family: $merri
+        }
+        .div-left {
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            border-right: 1px solid rgba(0, 0, 0, 0.2);
+            .img {
+                margin: 0 auto;
+                width: 550px;
+                height: 400px;
+                background: url("/assets/img/pic02.jpg") center/cover;
+            }
+        }
+        .div-right {
+            border-top: 1px solid rgba(0, 0, 0, 0.2);
+            .img {
+                margin: 0 auto;
+                width: 550px;
+                height: 400px;
+                background: url("/assets/img/pic03.jpg") center/cover;
+            }
+        }
+    }

@@ -4,15 +4,15 @@ header {
     text-align: center;
     h1 {
         width: 38%;
-        margin: auto;
+        margin: 0 auto;
         font-family: $inter;
         text-transform: uppercase;
-        font-size: 4rem;
+        font-size: 5rem;
         padding-bottom: 60px;
     }
     p {
         font-family: $merri;
-        font-size: 1rem;
+        font-size: 1.3rem;
         font-style: italic;
         padding-bottom: 60px;
     }
@@ -21,7 +21,8 @@ header {
     }
     i:before {
         content: "";
-        margin-top: 30%;
+        font-size: 1.5rem;
+        margin-top: 35%;
         position: absolute;
         height: 1px;
         background: rgba(0, 0, 0, 0.082);
@@ -31,9 +32,9 @@ header {
     i {
         position: absolute;
         font-size: 1.2rem;
-        border: 1px solid white;
+        border: 2px solid white;
         border-radius: 50px;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
     }
 }

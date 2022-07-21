@@ -18,10 +18,12 @@ nav {
     .nav1 {
         ul {
             li {
-                padding: 23px 10px;
+                padding: 35px 10px;
                 margin-right: 5px;
+                letter-spacing: 2px;
                 transition: 0.2s;
                 &:hover {
+                    cursor: pointer;
                     color: $black;
                     background: $white;
                 }
@@ -35,6 +37,7 @@ nav {
                 transition: 0.2s;
                 margin: 0 30px 0 30px;
                 &:hover {
+                    cursor: pointer;
                     transform: scale(1.3);
                 }
             }

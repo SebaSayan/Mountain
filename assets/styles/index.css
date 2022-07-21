@@ -13,14 +13,11 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  list-style-type: none;
 }
 
 body {
   background: url(../img/bg.jpg) fixed center/cover;
-}
-
-li {
-  list-style-type: none;
 }
 
 header {
@@ -31,16 +28,16 @@ header {
 
 header h1 {
   width: 38%;
-  margin: auto;
+  margin: 0 auto;
   font-family: "Inter", sans-serif;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 5rem;
   padding-bottom: 60px;
 }
 
 header p {
   font-family: "Merriweather", sans-serif;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-style: italic;
   padding-bottom: 60px;
 }
@@ -51,7 +48,8 @@ header div {
 
 header i:before {
   content: "";
-  margin-top: 30%;
+  font-size: 1.5rem;
+  margin-top: 35%;
   position: absolute;
   height: 1px;
   background: rgba(0, 0, 0, 0.082);
@@ -63,10 +61,10 @@ header i:before {
 header i {
   position: absolute;
   font-size: 1.2rem;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 50px;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 nav {
@@ -100,13 +98,15 @@ nav ul li {
 }
 
 nav .nav1 ul li {
-  padding: 23px 10px;
+  padding: 35px 10px;
   margin-right: 5px;
+  letter-spacing: 2px;
   -webkit-transition: 0.2s;
   transition: 0.2s;
 }
 
 nav .nav1 ul li:hover {
+  cursor: pointer;
   color: black;
   background: white;
 }
@@ -119,7 +119,269 @@ nav .nav2 ul li {
 }
 
 nav .nav2 ul li:hover {
+  cursor: pointer;
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
+}
+
+section {
+  margin: 0 auto;
+  width: 75%;
+  background: white;
+  color: black;
+}
+
+.section1 {
+  padding-bottom: 100px;
+}
+
+.section1 .date {
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.3rem;
+  padding: 80px 0 80px;
+}
+
+.section1 .title2 {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.section1 .title2 h2 {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 4rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.section1 .title2 p {
+  text-align: center;
+  margin: 0 auto;
+  width: 95%;
+  font-size: 0.9rem;
+  font-family: "Merriweather", sans-serif;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 50px;
+}
+
+.section1 .img1 {
+  background: url("/assets/img/pic01.jpg") center/cover;
+  height: 700px;
+  width: 1100px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.section1 .button {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 15px 20px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.section1 .button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+.section2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.section2 h3 {
+  margin: 0 auto;
+  width: 35%;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  line-height: 30px;
+  letter-spacing: 3px;
+  padding-bottom: 30px;
+}
+
+.section2 p:nth-child(1) {
+  margin: 90px 85px 30px;
+  text-align: center;
+  font-family: "Merriweather", sans-serif;
+}
+
+.section2 .button {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 15px 20px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-bottom: 80px;
+}
+
+.section2 .button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+.section2 p {
+  margin: 50px 85px 30px;
+  text-align: left;
+  line-height: 40px;
+  font-family: "Merriweather", sans-serif;
+}
+
+.section2 .div-left {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section2 .div-left .img {
+  margin: 0 auto;
+  width: 550px;
+  height: 400px;
+  background: url("/assets/img/pic02.jpg") center/cover;
+}
+
+.section2 .div-right {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.section2 .div-right .img {
+  margin: 0 auto;
+  width: 550px;
+  height: 400px;
+  background: url("/assets/img/pic03.jpg") center/cover;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto 80px;
+  width: 75%;
+  background: white;
+  color: black;
+}
+
+footer .f-left {
+  width: 50%;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+footer .f-left form {
+  margin: 50px 0;
+  padding: 20px 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Inter", sans-serif;
+  color: grey;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+footer .f-left form input,
+footer .f-left form textarea {
+  margin: 20px 0;
+  resize: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer .f-left .button {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+  border: 2px solid black;
+  padding: 15px 20px;
+  font-family: "Inter", sans-serif;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  width: 33%;
+  margin: 30px 0;
+  padding: 20px;
+}
+
+footer .f-left .button:hover {
+  cursor: pointer;
+  color: white;
+  background: black;
+}
+
+footer .f-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .f-right .r-left {
+  display: -ms-grid;
+  display: grid;
+}
+
+footer .f-right .r-right {
+  display: -ms-grid;
+  display: grid;
+}
+
+footer .f-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 33%;
+  margin: 0 auto;
+}
+
+footer .f-right a {
+  color: black;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  text-decoration: none;
+  width: 44px;
+  height: 44px;
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+footer .f-right a:hover {
+  color: white;
+  background: black;
 }
 /*# sourceMappingURL=index.css.map */
