@@ -1,5 +1,4 @@
-    @import "_settings";
-    @import "layout/_header";
-    @import "layout/_nav";
-    @import "layout/section";
-    @import "layout/footer";
+@import "settings";
+@import "layouts/header";
+@import "layouts/main";
+@import "layouts/footer";
